@@ -126,7 +126,28 @@ class Layout extends React.Component<any, bookState> {
 export default Layout;
 
 5. extend into tabular data:
-
+   <table className="table">
+          <thead>
+            <tr>
+              <td>#</td>
+              <td>Name</td>
+              <td>Category</td>
+              <td>Price</td>
+              <td>Rating</td>
+            </tr>
+          </thead>
+          <tbody>
+            {this.state.books.map((book) => (
+              <tr key={book.bookID}>
+                <td>{book.bookID}</td>
+                <td>{book.bookName}</td>
+                <td>{book.category}</td>
+                <td>{book.price}</td>
+                <td>{book.rating}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
 
 6. insert comment - base install:
 ChangeEvent - import React, { Component, ChangeEvent } from "react"; 
