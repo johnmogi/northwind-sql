@@ -7,5 +7,6 @@ export class ProductModel {
         public CategoryID?: number,
         public QuantityPerUnit?: string,
         public UnitPrice?: number,
+        public UnitsInStock?: number,
         public UnitsOnOrder?: number
         ) {} }

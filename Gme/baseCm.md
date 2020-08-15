@@ -1,8 +1,10 @@
+
+0. cli:
 npx create-react-app --template typescript
 cd client
 sudo npm start
-
 mkdir components
+
 1. touch layout.tsx:
 import React, { Component } from "react"; 
 export class Layout extends Component {
@@ -29,6 +31,26 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.register();
+
+25. layout.css:
+.container{
+    margin: 0 auto;
+    max-width:1080px;
+}
+td ,table{
+    text-align: center;
+    padding:0 3px;
+    border: 1px solid #000;
+    border-spacing:0; 
+    border-collapse: collapse; 
+}
+thead {
+    background: #ccc;
+    font-size:1.2em;font-weight:600;
+}
+tr:nth-child(even){
+    background:#ccc2cc
+}
 
 3. mkdir models> Item.tsx:
 export class RestoModel { public constructor(public restName?: string) {} }

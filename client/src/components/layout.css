@@ -1,0 +1,23 @@
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+td,
+table {
+    text-align: center;
+    padding: 0 3px;
+    border: 1px solid #000;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #ccc;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background: #ccc2cc
+}
