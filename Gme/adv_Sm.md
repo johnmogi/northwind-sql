@@ -78,4 +78,10 @@ DATE_FORMAT(date, "%m/%d/%Y %H:%i") as date
 SELECT DATE_FORMAT(date, "%m/%d/%Y") as date from games
  gameID, name, DATE_FORMAT(date, "%m/%d/%Y") as date
  
-4. 
+4. uncontrolled issues? ask me how...
+https://stackoverflow.com/questions/37427508/react-changing-an-uncontrolled-input
+https://medium.com/better-programming/to-be-or-not-to-be-2c372198a01c
+                    <input type="number" onChange={this.setUnitPrice} placeholder="UnitPrice" value={this.state.product.UnitPrice || ''} />
+
+
+5. d

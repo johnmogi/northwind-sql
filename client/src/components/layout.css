@@ -3,7 +3,8 @@
     max-width: 1080px;
 }
 
-td,
+
+/* td,
 table {
     text-align: center;
     padding: 0 3px;
@@ -20,4 +21,4 @@ thead {
 
 tr:nth-child(even) {
     background: #ccc2cc
-}
+} */

@@ -32,6 +32,11 @@ ReactDOM.render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.register();
 
+24. BTSTRP:
+npm install react-bootstrap bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+https://react-bootstrap.github.io/getting-started/introduction
+
 25. layout.css:
 .container{
     margin: 0 auto;
